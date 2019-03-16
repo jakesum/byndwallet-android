@@ -2,5 +2,5 @@
 	path = app/src/main/secp/secp256k1
 	url = https://github.com/bitcoin-core/secp256k1.git
 [submodule "app/src/main/jni/loafwallet-core"]
-	path = app/src/main/jni/loafwallet-core
+	path = app/src/main/jni/slicewallet-core
 	url = https://github.com/cryptocloudinc/slicewallet-core.git
