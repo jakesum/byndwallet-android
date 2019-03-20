@@ -111,7 +111,7 @@ public class BRConstants {
     public static final int CURRENT_UNIT_LITECOINS = 2;
 
     public static final String bitcoinLowercase = "\u0142";
-    public static final String bitcoinUppercase = "\u0141";
+    public static final String bitcoinUppercase = "\U+1D6BA";
 
     public static final long PASS_CODE_TIME_LIMIT = TimeUnit.MILLISECONDS.convert(6, TimeUnit.DAYS);
 
@@ -131,9 +131,9 @@ public class BRConstants {
     public static final String fingerprintSpendingLimit = "fingerprint-spending-limit";
     public static final String transactionDetails = "transaction-details";
 //    public static final String manageWallet = "manage-wallet";
-    public static final String receive = "receive-litecoin";
+    public static final String receive = "receive-sumcoin";
     public static final String requestAmount = "request-amount";
-    public static final String send = "send-litecoin";
+    public static final String send = "send-sumcoin";
     public static final String walletDisabled = "wallet-disabled";
     public static final String resetPinWithPaperKey = "reset-pin-paper-key";
     public static final String setPin = "set-pin";
@@ -144,10 +144,10 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
     public static final String loopBug = "android-loop-bug";
 
-    public static final String TWITTER_LINK = "https://twitter.com/loafwallet";
-    public static final String REDDIT_LINK = "https://www.reddit.com/r/litecoin";
-    public static final String WEB_LINK = "https://loafwallet.org";
-    public static final String TOS_LINK = "https://loafwallet.org/tos";
+    public static final String TWITTER_LINK = "https://twitter.com/slicewallet";
+    public static final String REDDIT_LINK = "https://www.reddit.com/r/sumcoin";
+    public static final String WEB_LINK = "https://slicewallet.org";
+    public static final String TOS_LINK = "https://slicewallet.org/tos";
 
     public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "https://testnet.litecore.io/tx/" :"https://insight.litecore.io/tx/";
 
