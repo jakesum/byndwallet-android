@@ -106,9 +106,9 @@ public class BRConstants {
     /**
      * Currency units
      */
-    public static final int CURRENT_UNIT_PHOTONS = 0; // formerly CURRENT_UNIT_BITS
-    public static final int CURRENT_UNIT_LITES = 1; // formerly CURRENT_UNIT_MBITS
-    public static final int CURRENT_UNIT_LITECOINS = 2;
+    public static final int CURRENT_UNIT_SIGMAS = 0; // formerly CURRENT_UNIT_BITS
+    public static final int CURRENT_UNIT_SUMS = 1; // formerly CURRENT_UNIT_MBITS
+    public static final int CURRENT_UNIT_SUMCOINS = 2;
 
     public static final String bitcoinLowercase = "\u0142";
     public static final String bitcoinUppercase = "\U+1D6BA";

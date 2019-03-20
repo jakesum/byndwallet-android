@@ -4,12 +4,12 @@ import android.content.Context;
 
 import com.breadwallet.presenter.entities.CurrencyEntity;
 import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.sqlite.CurrencyDataSource;
+import com.breadwallet.tools.sqSUM.CurrencyDataSource;
 import com.breadwallet.wallet.BRWalletManager;
 
 import java.math.BigDecimal;
 
-import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_PHOTONS;
+import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_SIGMAS;
 import static com.breadwallet.tools.util.BRConstants.ROUNDING_MODE;
 
 /**
@@ -42,7 +42,7 @@ public class BRExchange {
 
     public static BigDecimal getMaxAmount(Context context, String iso) {
         final long MAX_BTC = 100000000;
-        if (iso.equalsIgnoreCase("LTC"))
+        if (iso.equalsIgnoreCase("SUM"))
             return getBitcoinForSatoshis(context, new BigDecimal(MAX_BTC * 100000000));
         CurrencyEntity ent = CurrencyDataSource.getInstance(context).getCurrencyByIso(iso);
         if (ent == null) return new BigDecimal(Integer.MAX_VALUE);
@@ -54,13 +54,13 @@ public class BRExchange {
         BigDecimal result = new BigDecimal(0);
         int unit = BRSharedPrefs.getCurrencyUnit(app);
         switch (unit) {
-            case CURRENT_UNIT_PHOTONS:
+            case CURRENT_UNIT_SIGMAS:
                 result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("100"), 2, ROUNDING_MODE);
                 break;
-            case BRConstants.CURRENT_UNIT_LITES:
+            case BRConstants.CURRENT_UNIT_SUMS:
                 result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("100000"), 5, ROUNDING_MODE);
                 break;
-            case BRConstants.CURRENT_UNIT_LITECOINS:
+            case BRConstants.CURRENT_UNIT_SUMCOINS:
                 result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("100000000"), 8, ROUNDING_MODE);
                 break;
         }
@@ -71,13 +71,13 @@ public class BRExchange {
         BigDecimal result = new BigDecimal(0);
         int unit = BRSharedPrefs.getCurrencyUnit(app);
         switch (unit) {
-            case CURRENT_UNIT_PHOTONS:
+            case CURRENT_UNIT_SIGMAS:
                 result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("100"));
                 break;
-            case BRConstants.CURRENT_UNIT_LITES:
+            case BRConstants.CURRENT_UNIT_SUMS:
                 result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("100000"));
                 break;
-            case BRConstants.CURRENT_UNIT_LITECOINS:
+            case BRConstants.CURRENT_UNIT_SUMCOINS:
                 result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("100000000"));
                 break;
         }
@@ -89,16 +89,16 @@ public class BRExchange {
         if (app != null) {
             int unit = BRSharedPrefs.getCurrencyUnit(app);
             switch (unit) {
-                case CURRENT_UNIT_PHOTONS:
+                case CURRENT_UNIT_SIGMAS:
                     currencySymbolString = "m" + BRConstants.bitcoinLowercase;
 //                        decimalPoints = 2;
 //                    if (getNumberOfDecimalPlaces(result.toPlainString()) == 1)
 //                        currencyFormat.setMinimumFractionDigits(1);
                     break;
-                case BRConstants.CURRENT_UNIT_LITES:
+                case BRConstants.CURRENT_UNIT_SUMS:
                     currencySymbolString = BRConstants.bitcoinLowercase;
                     break;
-                case BRConstants.CURRENT_UNIT_LITECOINS:
+                case BRConstants.CURRENT_UNIT_SUMCOINS:
                     currencySymbolString = BRConstants.bitcoinUppercase;
                     break;
             }
@@ -110,7 +110,7 @@ public class BRExchange {
     public static BigDecimal getAmountFromSatoshis(Context app, String iso, BigDecimal amount) {
 //        Log.e(TAG, "getAmountFromSatoshis: " + iso + ":" + amount);
         BigDecimal result;
-        if (iso.equalsIgnoreCase("LTC")) {
+        if (iso.equalsIgnoreCase("SUM")) {
             result = getBitcoinForSatoshis(app, amount);
         } else {
             //multiply by 100 because core function localAmount accepts the smallest amount e.g. cents
@@ -129,7 +129,7 @@ public class BRExchange {
     public static BigDecimal getSatoshisFromAmount(Context app, String iso, BigDecimal amount) {
 //        Log.e(TAG, "getSatoshisFromAmount: " + iso + ":" + amount);
         BigDecimal result;
-        if (iso.equalsIgnoreCase("LTC")) {
+        if (iso.equalsIgnoreCase("SUM")) {
             result = BRExchange.getSatoshisForBitcoin(app, amount);
         } else {
             //multiply by 100 because core function localAmount accepts the smallest amount e.g. cents

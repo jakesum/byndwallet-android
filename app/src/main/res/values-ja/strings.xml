@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">ブレッド</string>
+  <string name="About.appName.android">スライス</string>
   <!-- About screen blog label -->
   <string name="About.blog">ブログ</string>
   <!-- About screen footer -->
-  <string name="About.footer">グローバルブレッドチームによって開発されました。バージョン %1$s</string>
+  <string name="About.footer">グローバルスライスチームによって開発されました。バージョン %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">プライバシーポリシー</string>
   <!-- About screen reddit label -->
@@ -23,7 +23,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">ウォレット読み込み中</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">マイブレッド</string>
+  <string name="AccountHeader.defaultWalletName">マイスライス</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -35,7 +35,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Android OSのKeystoreに問題があります。contact@loafwallet.org にお問い合わせください。</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">お使いのAndroidロック画面が無効にされたため、暗号化されたブレッドのデータはつい最近無効になりました。</string>
+  <string name="Alert.keystore.invalidated.android">お使いのAndroidロック画面が無効にされたため、暗号化されたスライスのデータはつい最近無効になりました。</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStoreエラー</string>
   <!-- No internet alert message -->
@@ -89,7 +89,8 @@
   <!-- Approve button label -->
   <string name="BitID.approve">承認する</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$sがライトコインウォレットを使っての認証を求めています</string>
+  <string name="BitID.authenticationRequest">%1$sが
+和コインウォレットを使っての認証を求めています</string>
   <!-- Deny button label -->
   <string name="BitID.deny">拒否する</string>
   <!-- BitID error alert title -->
@@ -140,8 +141,9 @@
   <string name="ConfirmPaperPhrase.label">すべてが正しく書き留められていることを確認するため、紙の鍵に記入した下記のフレーズを入力してください。</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">フレーズ #%1$s</string>
-  <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">ライトコインの表示単位</string>
+  <!-- 
+sumcoin denomination picker label -->
+  <string name="DefaultCurrency.sumcoinLabel">和コインの表示単位</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">為替レート</string>
   <!-- Email unavailable alert title -->
@@ -171,7 +173,8 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">秘密鍵の残高確認中...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">この秘密鍵からウォレットに%1$sを送信しますか? ライトコインネットワークは手数料%2$sを頂戴します。</string>
+  <string name="Import.confirm">この秘密鍵からウォレットに%1$sを送信しますか? 
+和コインネットワークは手数料%2$sを頂戴します。</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">この秘密鍵はすでにあなたのウォレットに存在しています。</string>
   <!-- empty private key error message -->
@@ -189,13 +192,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">インポート\nされる\nウォレット</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">ウォレットをインポートすると、1回のトランザクションで、ご自身の他のウォレットからすべてのお金をブレッドのウォレットへ転送できます。</string>
+  <string name="Import.message">ウォレットをインポートすると、1回のトランザクションで、ご自身の他のウォレットからすべてのお金をスライスのウォレットへ転送できます。</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">この秘密鍵はパスワードで保護されています。</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">パスワード</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">あなたの\nブレッドの\nウォレット</string>
+  <string name="Import.rightCaption">あなたの\nスライスの\nウォレット</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">秘密鍵をスキャン</string>
   <!-- Import wallet success alert title -->
@@ -215,9 +218,11 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">無視する</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">端末がセキュリティの危険にさらされている可能性があります\n 「脱獄」アプリはブレッドのキーチェーンデータにアクセスし、あなたのライトコインを盗む恐れがあります!  直ちにこのウォレットを完全削除して、安全な端末で復元して下さい。</string>
+  <string name="JailbreakWarnings.messageWithBalance">端末がセキュリティの危険にさらされている可能性があります\n 「脱獄」アプリはスライスのキーチェーンデータにアクセスし、あなたの
+和コインを盗む恐れがあります!  直ちにこのウォレットを完全削除して、安全な端末で復元して下さい。</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">端末がセキュリティの危険にさらされている可能性があります\n「脱獄」アプリはブレッドのキーチェーンデータにアクセスし、あなたのライトコインを盗む恐れがあります!  ブレッドは必ず脱獄端末以外で利用してください。</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">端末がセキュリティの危険にさらされている可能性があります\n「脱獄」アプリはスライスのキーチェーンデータにアクセスし、あなたの
+和コインを盗む恐れがあります!  スライスは必ず脱獄端末以外で利用してください。</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">警告</string>
   <!-- Wipe wallet button -->
@@ -225,7 +230,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">位置情報サービスが無効化されています。</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">ブレッドは位置情報サービスへのアクセスが許可されていません。</string>
+  <string name="LocationPlugin.notAuthorized">スライスは位置情報サービスへのアクセスが許可されていません。</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">あなたは%1$sでご自身のウォレットを作成しました</string>
   <!-- Manage wallet description text -->
@@ -235,7 +240,8 @@
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">ウォレットを管理</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">ライトコインを購入</string>
+  <string name="MenuButton.buy">
+和コインを購入</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">ウォレットにロックを設定する</string>
   <!-- Menu button title -->
@@ -267,7 +273,8 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">ノードの接続状況</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">ライトコインノード</string>
+  <string name="NodeSelector.title">
+和コインノード</string>
   <!-- Bad Payment request alert title -->
   <string name="PaymentProtocol.Errors.badPaymentRequest">不正な支払い要求</string>
   <!-- Error opening payment protocol file message -->
@@ -279,9 +286,11 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">支払いが行えませんでした</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">%1$s未満のライトコインの支払いは行えません。</string>
+  <string name="PaymentProtocol.Errors.smallPayment">%1$s未満の
+和コインの支払いは行えません。</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">ライトコインのトランザクションの出力は%1$s以上である必要があります。</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">
+和コインのトランザクションの出力は%1$s以上である必要があります。</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">署名の種類がサポートされていません</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -317,7 +326,7 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">ブレッドは6桁のPINコード使用にアップグレードされました。こちらをタップして更新してください。</string>
+  <string name="Prompts.UpgradePin.body">スライスは6桁のPINコード使用にアップグレードされました。こちらをタップして更新してください。</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">PINコードを更新する</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
@@ -351,7 +360,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">紙の鍵を入力してください</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">紙の鍵を使用し、あなたのブレッドを復元する。</string>
+  <string name="RecoverWallet.intro">紙の鍵を使用し、あなたのスライスを復元する。</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">あなたが入力した紙の鍵は無効です。各フレーズを再確認の上、もう一度お試しください。</string>
   <!-- Previous button accessibility label -->
@@ -379,7 +388,8 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20〜45分</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">ライトコインネットワークでトランザクションが完了したと表示されているが、Loaf上では完了と表示されない場合。</string>
+  <string name="ReScan.body2">
+和コインネットワークでトランザクションが完了したと表示されているが、Loaf上では完了と表示されない場合。</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">送金しているが、拒否され続けている場合。</string>
   <!-- Start Sync button label -->
@@ -405,11 +415,12 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">セキュリティを最大限に高めるため、すべてのセキュリティ設定を有効にしてください。</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">あなたが携帯電話を紛失したり、アップグレードした場合にご自身のライトコインへアクセスできる唯一の方法です。</string>
+  <string name="SecurityCenter.paperKeyDescription">あなたが携帯電話を紛失したり、アップグレードした場合にご自身の
+和コインへアクセスできる唯一の方法です。</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">ペーパーキー</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">アクセス権限のないユーザーからあなたのブレッドを守ります。</string>
+  <string name="SecurityCenter.pinDescription">アクセス権限のないユーザーからあなたのスライスを守ります。</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6桁のPINコード</string>
   <!-- Security Center Title -->
@@ -425,13 +436,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">残高: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">「設定」 &gt; 「アプリ」 &gt; 「ブレッド」 &gt; 「許可」でカメラへのアクセスを許可してください</string>
+  <string name="Send.cameraUnavailabeMessage.android">「設定」 &gt; 「アプリ」 &gt; 「スライス」 &gt; 「許可」でカメラへのアクセスを許可してください</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">ブレッドはカメラへのアクセスを許可されていません</string>
+  <string name="Send.cameraUnavailabeTitle.android">スライスはカメラへのアクセスを許可されていません</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">設定画面へ移動し、カメラへのアクセス許可をしてください。</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">ブレッドはカメラへのアクセスが許可されていません</string>
+  <string name="Send.cameraUnavailableTitle">スライスはカメラへのアクセスが許可されていません</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">送金先がご自身のアドレスになっています。自分宛てには送金できません。</string>
   <!-- Could not create transaction alert title -->
@@ -445,9 +456,11 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">受取人の本人確認が行われていません。</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">送金先のアドレスが無効なライトコインアドレスです。</string>
+  <string name="Send.invalidAddressMessage">送金先のアドレスが無効な
+和コインアドレスです。</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">ペーストボードに有効なライトコインアドレスが入っていません。</string>
+  <string name="Send.invalidAddressOnPasteboard">ペーストボードに有効な
+和コインアドレスが入っていません。</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">無効なアドレスです</string>
   <!-- Is rescanning error message -->
@@ -473,7 +486,8 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">宛先</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">ライトコインアドレスは、個人利用のみを想定しています。</string>
+  <string name="Send.UsedAddress.firstLine">
+和コインアドレスは、個人利用のみを想定しています。</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">再利用は、最初の利用者と受取人の両方のプライバシーの侵害につながるおそれがあり、受取人がアドレスを直接管理しない場合、損害につながるおそれもあります。</string>
   <!-- Adress already used alert title -->
@@ -487,7 +501,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">早期アクセスに参加</string>
   <!-- Are you enjoying Loaf alert message body -->
-  <string name="Settings.enjoying">ブレッドをお楽しみいただいていますか?</string>
+  <string name="Settings.enjoying">スライスをお楽しみいただいていますか?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">ウォレットをインポート</string>
   <!-- Manage settings section header -->
@@ -511,7 +525,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">別のウォレットを作成、または復元する</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">匿名データをシェアして、ブレッドの改善にご協力ください。これにはいかなる財務情報も含まれません。私たちはあなたの財務プライバシーを尊重しています。</string>
+  <string name="ShareData.body">匿名データをシェアして、スライスの改善にご協力ください。これにはいかなる財務情報も含まれません。私たちはあなたの財務プライバシーを尊重しています。</string>
   <!-- Share data header -->
   <string name="ShareData.header">データをシェしますか?</string>
   <!-- Share data switch label. -->
@@ -519,13 +533,14 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">紙の鍵をもう一度書き留めてください</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">紙の鍵は、あなたが携帯電話を紛失したり、盗まれたり、壊れたり、アップグレードした場合に、ご自身のブレッドを復元できる唯一の方法です。\n\nフレーズの一覧を表示しますので、紙に書き留めて安全に保管してください。</string>
+  <string name="StartPaperPhrase.body">紙の鍵は、あなたが携帯電話を紛失したり、盗まれたり、壊れたり、アップグレードした場合に、ご自身のスライスを復元できる唯一の方法です。\n\nフレーズの一覧を表示しますので、紙に書き留めて安全に保管してください。</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">紙の鍵を書き留めてください</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">あなたが最後に紙の鍵を書き留めたのは %1$sです</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">最も安全にライトコインを使う手段。</string>
+  <string name="StartViewController.message">最も安全に
+和コインを使う手段。</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">接続中</string>
   <!-- Syncing view header text -->
@@ -551,13 +566,13 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">指紋認証が有効ではありません</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">設定された限度額以下の送金を行う場合には、指紋を使ってご自身のブレッドのロックを解除してください。</string>
+  <string name="TouchIdSettings.label">設定された限度額以下の送金を行う場合には、指紋を使ってご自身のスライスのロックを解除してください。</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID利用限度額画面</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">利用限度: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">ブレッドでTouch IDの有効化</string>
+  <string name="TouchIdSettings.switchLabel">スライスでTouch IDの有効化</string>
   <!-- Enable fingerprint for this wallet called Loaf -->
   <string name="TouchIdSettings.switchLabel.android">指紋認証を有効にする</string>
   <!-- Touch ID settings view title -->
@@ -635,7 +650,8 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">%1$sに</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">ライトコイン トランザクションID</string>
+  <string name="TransactionDetails.txHashHeader">
+和コイン トランザクションID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">このアドレスで受け取りました</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -653,7 +669,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">タッチセンサー</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">ブレッドのロックを解除してください。</string>
+  <string name="UnlockScreen.touchIdPrompt">スライスのロックを解除してください。</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">続行するためAndroid機器のロックを解除 してください</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -663,9 +679,10 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">ウォレットのロックが解除されました</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">このPINコードは覚えておいてください。忘れた場合、ご自身のライトコインへアクセスできなくなります。</string>
+  <string name="UpdatePin.caption">このPINコードは覚えておいてください。忘れた場合、ご自身の
+和コインへアクセスできなくなります。</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">あなたのPINコードはご自身のブレッドのロックを解除したり、送金する時に利用します。</string>
+  <string name="UpdatePin.createInstruction">あなたのPINコードはご自身のスライスのロックを解除したり、送金する時に利用します。</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PINコードの設定</string>
   <!-- Update PIN title -->
