@@ -1,4 +1,5 @@
-![ƀ](/images/icon.png) SliceWallet for Android
+![ƀ](/images/icon.png) 
+# SliceWallet for Android
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
