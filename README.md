@@ -42,13 +42,17 @@ phrase.
 - import [password protected](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) paper wallets
 - ["payment protocol"](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) payee identity certification
 
-## How to set up the development environment:
+## Installation:
 1. Download and install Java 7 or up
-2. Download and Install the latest Android studio
-3. Download and install the latest NDK https://developer.android.com/ndk/downloads/index.html or download it in android studio by "choosing the NDK" and press "download"
-4. Go to https://github.com/breadwallet/breadwallet-android and clone or download the project
-5. Open the project with Android Studio and let the project sync
-6. Go to SDK Manager and download all the SDK Platforms and SDK Tools
-7. Initialize the submodules - <code>git submodule init</code>
-8. Update the submodules - <code>git submodule update</code>
+2. Download and install the latest Android studio
+3. Download NDK r15c from the [NDK Archives](https://developer.android.com/ndk/downloads/older_releases.html)
+4. Clone this repo & init submodules
+```bash
+$ git clone https://github.com/CryptoCloudInc/slicewallet-android.git
+$ git submodule init
+$ git submodule update
+```
+5. Open the project with Android Studio, navigate to `File > Project Structure > SDK Location`
+6. Change `Android NDK Location` with the path to NDK r15c that you downloaded earlier
+7. Go to SDK Manager and download all the SDK Platforms and SDK Tools
 9. Build -> Rebuild Project
