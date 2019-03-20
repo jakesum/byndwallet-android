@@ -12,6 +12,7 @@ import java.util.Locale;
 import java.util.Objects;
 
 import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_PHOTONS;
+import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_SIGMAS;
 
 /**
  * BreadWallet
@@ -114,7 +115,7 @@ public class BRCurrency {
             if (app != null) {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
                 switch (unit) {
-                    case CURRENT_UNIT_PHOTONS:
+                    case CURRENT_UNIT_SIGMAS:
                         return "Bits";
                     case BRConstants.CURRENT_UNIT_SUMS:
                         return "MBits";

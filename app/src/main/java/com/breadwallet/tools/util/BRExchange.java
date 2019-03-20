@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.breadwallet.presenter.entities.CurrencyEntity;
 import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.sqSUM.CurrencyDataSource;
+import com.breadwallet.tools.sqlite.CurrencyDataSource;
 import com.breadwallet.wallet.BRWalletManager;
 
 import java.math.BigDecimal;
