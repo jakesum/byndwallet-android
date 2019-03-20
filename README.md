@@ -1,4 +1,4 @@
-![ƀ](/images/icon.png) 
+![ƀ](/images/sum_icon.png) 
 # SliceWallet for Android
 ----------------------------------
 
