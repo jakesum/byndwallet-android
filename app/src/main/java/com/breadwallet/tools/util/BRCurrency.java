@@ -11,7 +11,7 @@ import java.util.Currency;
 import java.util.Locale;
 import java.util.Objects;
 
-import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_PHOTONS;
+
 import static com.breadwallet.tools.util.BRConstants.CURRENT_UNIT_SIGMAS;
 
 /**
