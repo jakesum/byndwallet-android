@@ -95,7 +95,7 @@ android {
         disable 'MissingTranslation'
     }
     buildTypes {
-        gitUpdateModules()
+//        gitUpdateModules()
 //        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         release {
             minifyEnabled = false
