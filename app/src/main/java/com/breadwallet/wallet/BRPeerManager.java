@@ -23,17 +23,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * BreadWallet
+************************************************************************
+// Copyright (C) Sigma Systems Inc - All Rights Reserved
+// Unauthorized copying of this file, via any medium is strictly prohibited
+// Proprietary and confidential
+// Written by BreadWallet LLC 2015
+// Modified and maintained by Crypto Cloud Inc, Sigma Systems Inc, SumcoinIndex.com <support@sumcoinindex.com>, 
+// 2017 
+***********************************************************************
+ * SliceWallet
  * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 12/10/15.
- * Copyright (c) 2016 breadwallet LLC
- * <p/>
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
+ * Created by Sigma Systems Inc <support@sumcoinindex.com> 2017.
+ * Copyright (c) 2017 Sigma Systems Inc
  * <p/>
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
