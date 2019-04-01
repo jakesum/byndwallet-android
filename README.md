@@ -3,7 +3,7 @@
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
-(https://play.google.com/store/apps/details?id=com.slicewallet)
+(HTTP_Download_Link)
 
 ### Sumcoin done right
 
