@@ -72,7 +72,7 @@ public class BRConstants {
     public static final String FEE_KB_PREFS = "feeKb";
     public static final String ECONOMY_FEE_KB_PREFS = "EconomyFeeKb";
     public static final String LITTLE_CIRCLE = "\u2022";
-    public static String SUPPORT_EMAIL = "contact@slicewallet.com";
+    public static String SUPPORT_EMAIL = "support@slicewallet.com";
 
     public static final int ONE_BITCOIN = 100000000;
     public static final int HUNDRED_BITS = 10000000;
@@ -110,8 +110,8 @@ public class BRConstants {
     public static final int CURRENT_UNIT_SUMS = 1; // formerly CURRENT_UNIT_MBITS
     public static final int CURRENT_UNIT_SUMCOINS = 2;
 
-    public static final String bitcoinLowercase = "\u1D6B";
-    public static final String bitcoinUppercase = "\u1D6B";
+    public static final String bitcoinLowercase = "\u03A3";
+    public static final String bitcoinUppercase = "\u03A3";
 
     public static final long PASS_CODE_TIME_LIMIT = TimeUnit.MILLISECONDS.convert(6, TimeUnit.DAYS);
 
