@@ -145,7 +145,7 @@ public class BRConstants {
     public static final String loopBug = "android-loop-bug";
 
     public static final String TWITTER_LINK = "https://twitter.com/slicewallet";
-    public static final String REDDIT_LINK = "https://www.reddit.com/r/sumcoin";
+    public static final String REDDIT_LINK = "https://www.reddit.com/u/sumcoin";
     public static final String WEB_LINK = "https://slicewallet.org";
     public static final String TOS_LINK = "https://slicewallet.org/tos";
 
