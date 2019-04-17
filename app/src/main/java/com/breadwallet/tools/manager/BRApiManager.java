@@ -194,7 +194,7 @@ public class BRApiManager {
     }
 
     public static void updateFeePerKb(Context app) {
-        String jsonString = urlGET(app, "https://rates.slicewallet.org/fee_per_kb");
+        String jsonString = urlGET(app, "https://rates.slicewallet.org/api/fee_per_kb");
         if (jsonString == null || jsonString.isEmpty()) {
             Log.e(TAG, "updateFeePerKb: failed to update fee, response string: " + jsonString);
             return;
