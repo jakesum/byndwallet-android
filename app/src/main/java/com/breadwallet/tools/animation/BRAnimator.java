@@ -22,6 +22,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.OvershootInterpolator;
+import android.app.AlertDialog;
 
 import com.breadwallet.R;
 import com.breadwallet.presenter.activities.BreadActivity;
@@ -161,33 +162,37 @@ public class BRAnimator {
     }
 
     public static void showSupportFragment(Activity app, String articleId) {
-        if (supportIsShowing) return;
-        supportIsShowing = true;
-        if (app == null) {
-            Log.e(TAG, "showSupportFragment: app is null");
-            return;
-        }
-        FragmentSupport fragmentSupport = (FragmentSupport) app.getFragmentManager().findFragmentByTag(FragmentSupport.class.getName());
-        if (fragmentSupport != null && fragmentSupport.isAdded()) {
-            app.getFragmentManager().popBackStack();
-            return;
-        }
-        try {
-            fragmentSupport = new FragmentSupport();
-            if (articleId != null && !articleId.isEmpty()) {
-                Bundle bundle = new Bundle();
-                bundle.putString("articleId", articleId);
-                fragmentSupport.setArguments(bundle);
-            }
-            app.getFragmentManager().beginTransaction()
-                    .setCustomAnimations(0, 0, 0, R.animator.plain_300)
-                    .add(android.R.id.content, fragmentSupport, FragmentSend.class.getName())
-                    .addToBackStack(FragmentSend.class.getName()).commit();
+        // if (supportIsShowing) return;
+        // supportIsShowing = true;
+        // if (app == null) {
+        //     Log.e(TAG, "showSupportFragment: app is null");
+        //     return;
+        // }
+        // FragmentSupport fragmentSupport = (FragmentSupport) app.getFragmentManager().findFragmentByTag(FragmentSupport.class.getName());
+        // if (fragmentSupport != null && fragmentSupport.isAdded()) {
+        //     app.getFragmentManager().popBackStack();
+        //     return;
+        // }
+        // try {
+        //     fragmentSupport = new FragmentSupport();
+        //     if (articleId != null && !articleId.isEmpty()) {
+        //         Bundle bundle = new Bundle();
+        //         bundle.putString("articleId", articleId);
+        //         fragmentSupport.setArguments(bundle);
+        //     }
+        //     app.getFragmentManager().beginTransaction()
+        //             .setCustomAnimations(0, 0, 0, R.animator.plain_300)
+        //             .add(android.R.id.content, fragmentSupport, FragmentSend.class.getName())
+        //             .addToBackStack(FragmentSend.class.getName()).commit();
+ 
+        // } finally {
 
-        } finally {
-
-        }
-
+        // }
+            AlertDialog.Builder builder1 = new AlertDialog.Builder(app);
+            builder1.setMessage("SliceWallet Support is currently not available. Please contact us at:\n support@slicewallet.org");
+            builder1.setCancelable(true);
+            AlertDialog alert11 = builder1.create();
+            alert11.show();
     }
 
     public static void popBackStackTillEntry(Activity app, int entryIndex) {
