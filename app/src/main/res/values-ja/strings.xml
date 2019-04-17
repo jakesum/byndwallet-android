@@ -724,7 +724,7 @@ sumcoin denomination picker label -->
   <!-- Updating webview message -->
   <string name="Webview.updating">更新中...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">SliceWalletは新しい見た目と新機能を備えて、SliceWalletという名前に生まれ変わりました。\n\nヘルプをご覧になるには、ほとんどの画面の右上にある(?)をお探しください。</string>
+  <string name="Welcome.body">   </string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">SliceWalletへようこそ！</string>
   <!-- Wipe wallet alert message -->

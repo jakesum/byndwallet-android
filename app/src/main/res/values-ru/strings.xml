@@ -707,7 +707,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Идет обновление...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Slicewallet сменил свое название на Slice и обзавелся новым дизайном и функциями.\n\nЕсли вам нужна помощь, то ищите иконку (?) в правом верхнем углу большинства экранов.</string>
+  <string name="Welcome.body">   </string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Добро пожаловать в Slice!</string>
   <!-- Wipe wallet alert message -->
