@@ -138,9 +138,9 @@ public class BRConstants {
     public static final String TWITTER_LINK = "https://twitter.com/slicewallet";
     public static final String REDDIT_LINK = "https://www.reddit.com/r/sumcoin";
     public static final String WEB_LINK = "https://slicewallet.org";
-    public static final String TOS_LINK = "https://slicewallet.org/tos";
+    public static final String TOS_LINK = "https://slicewallet.org/license/";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://159.65.72.249:4000/tx/" :"http://159.65.72.249:4000/tx/";
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://sumexplorer.com/tx/" :"http://sumexplorer.com/tx/";
 
     private BRConstants() {
     }
