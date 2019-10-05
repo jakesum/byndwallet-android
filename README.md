@@ -48,9 +48,9 @@ phrase.
 3. Download NDK r15c from the [NDK Archives](https://developer.android.com/ndk/downloads/older_releases.html)
 4. Clone this repo & init submodules
 ```bash
-$ git clone https://github.com/CryptoCloudInc/slicewallet-android.git
-$ git submodule init
-$ git submodule update
+git clone https://github.com/CryptoCloudInc/slicewallet-android.git
+git submodule init
+git submodule update
 ```
 5. Open the project with Android Studio, navigate to `File > Project Structure > SDK Location`
 6. Change `Android NDK Location` with the path to NDK r15c that you downloaded earlier
