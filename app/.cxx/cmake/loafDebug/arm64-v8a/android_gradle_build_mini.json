@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/markmccorkle/Repositories/android/slicewallet-android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/markmccorkle/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "core-lib-Debug-arm64-v8a": {
+      "artifactName": "core-lib",
+      "buildCommand": "/Users/markmccorkle/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/arm64-v8a --target core-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/build/intermediates/cmake/loafDebug/obj/arm64-v8a/libcore-lib.so"
+    }
+  }
+}
