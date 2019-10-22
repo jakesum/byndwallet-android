@@ -5,7 +5,6 @@
       "sdkFolder": "/Users/markmccorkle/Library/Android/sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
-      "ideBuildTargetAbi": "x86",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/build/intermediates",
       "gradleModulePathName": ":app",
@@ -14,7 +13,7 @@
       "buildSystem": "CMAKE",
       "compilerSettingsCacheFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/.cxx",
       "cxxFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx",
-      "ndkFolder": "/Users/markmccorkle/Library/Android/sdk/ndk-bundle",
+      "ndkFolder": "/Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570",
       "ndkVersion": "20.0.5594570",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -44,14 +43,17 @@
     "gradleBuildOutputFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cxx/loafDebug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "X86"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "buildTargetSet": [
       "core-lib"
     ]
   },
   "abi": "X86",
-  "abiPlatformVersion": 28,
+  "abiPlatformVersion": 23,
   "cxxBuildFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/x86",
   "jsonFile": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/x86/android_gradle_build.json",
   "gradleBuildOutputFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cxx/loafDebug/x86",

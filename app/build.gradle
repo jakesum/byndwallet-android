@@ -1,11 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('../../GooglePlayKeyStore_AJS.jks')
+            keyAlias = 'SumFolio_Google_Play_Keystore_AJS-20190107'
+            storePassword '01UwN78092i83$'
+            keyPassword '01UwN78092i83$'
+        }
+    }
     compileSdkVersion = 28
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
         applicationId = 'com.slicewallet'
-        minSdkVersion 28
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 5
         versionName "5"
@@ -24,6 +32,7 @@ android {
                 arguments "-DANDROID_TOOLCHAIN=clang"
             }
         }
+        signingConfig signingConfigs.debug
 
     }
     testOptions {
