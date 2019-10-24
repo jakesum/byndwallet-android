@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570",
+  "ndkFolder": "/Users/markmccorkle/Library/Android/sdk/ndk-bundle",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is /Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570"
+      "message": "ndk.dir in local.properties is /Users/markmccorkle/Library/Android/sdk/ndk-bundle"
     },
     {
       "level": "INFO",
@@ -19,7 +19,7 @@
     },
     {
       "level": "INFO",
-      "message": "Considering /Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570 by ndk.dir"
+      "message": "Considering /Users/markmccorkle/Library/Android/sdk/ndk-bundle by ndk.dir"
     },
     {
       "level": "INFO",
@@ -27,15 +27,7 @@
     },
     {
       "level": "INFO",
-      "message": "Considering /Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570 in SDK ndk folder"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected /Users/markmccorkle/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "Found requested ndk.dir (/Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570) which has version 20.0.5594570"
+      "message": "Found requested ndk.dir (/Users/markmccorkle/Library/Android/sdk/ndk-bundle) which has version 20.0.5594570"
     }
   ]
 }

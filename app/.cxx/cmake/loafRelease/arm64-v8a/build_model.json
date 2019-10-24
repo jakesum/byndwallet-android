@@ -13,7 +13,7 @@
       "buildSystem": "CMAKE",
       "compilerSettingsCacheFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/.cxx",
       "cxxFolder": "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx",
-      "ndkFolder": "/Users/markmccorkle/Library/Android/sdk/ndk/20.0.5594570",
+      "ndkFolder": "/Users/markmccorkle/Library/Android/sdk/ndk-bundle",
       "ndkVersion": "20.0.5594570",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
