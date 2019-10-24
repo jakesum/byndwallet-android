@@ -1,0 +1,23 @@
+# ninja log v5
+2	110	0	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBase58.c.o	3e9fe3065934929b
+3	112	0	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBIP32Sequence.c.o	9b2e4d205e382fbd
+5	195	0	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIKey.c.o	a7ac925ac5bbec9f
+10	228	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBase58.c.o	f470320ef1af5555
+113	245	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBloomFilter.c.o	89ab357b4fa7e54
+0	283	0	CMakeFiles/core-lib.dir/src/main/jni/transition/core.c.o	a8266f87c2198eeb
+111	317	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBIP39Mnemonic.c.o	c30b468932ce3a37
+12	351	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBIP32Sequence.c.o	9059d05852d6d36b
+9	364	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRAddress.c.o	a179cc9526620c81
+6	527	0	CMakeFiles/core-lib.dir/src/main/jni/transition/PeerManager.c.o	809d44b8a595626
+364	552	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRSet.c.o	1fd021faf50be766
+245	583	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRMerkleBlock.c.o	741ed3205243c5da
+13	678	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBIP38Key.c.o	2aee119770dd4313
+528	997	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRTransaction.c.o	87622bdb4f8feb4e
+284	1268	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRPaymentProtocol.c.o	269cfcfdedc831c0
+552	1281	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRWallet.c.o	903d5a48f3091a62
+196	1308	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRCrypto.c.o	4e2bf897c7fb47c8
+7	1619	0	CMakeFiles/core-lib.dir/src/main/jni/transition/wallet.c.o	46d50b491c7a1e13
+317	1786	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRPeer.c.o	50835510c37b1e52
+352	2245	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRPeerManager.c.o	def6d1201a0bba7f
+229	2799	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRKey.c.o	bb869586ebad48db
+2800	2874	0	../../../../build/intermediates/cmake/loafRelease/obj/armeabi-v7a/libcore-lib.so	d9b8dd4ba9d2b25b
