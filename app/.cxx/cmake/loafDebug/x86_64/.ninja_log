@@ -1,0 +1,23 @@
+# ninja log v5
+1	85	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBase58.c.o	1be1553f950fabda
+1	95	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBIP39Mnemonic.c.o	adff66a237647bb8
+2	96	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBloomFilter.c.o	5c552fa0f081839c
+1	100	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBIP32Sequence.c.o	a402a5d325864acb
+2	106	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRMerkleBlock.c.o	84f3879a22b44977
+1	107	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRAddress.c.o	7c62ce23f30abf5d
+1	119	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRBIP38Key.c.o	9e74a82be61e495f
+119	172	0	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBase58.c.o	bc8da76f3afcfe7d
+97	174	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRSet.c.o	5304baee2dfffbe
+107	189	0	CMakeFiles/core-lib.dir/src/main/jni/transition/core.c.o	831a618275686209
+172	231	0	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBIP32Sequence.c.o	f0e122788ff3083
+174	246	0	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIKey.c.o	7bf857cb423fe84a
+101	302	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRTransaction.c.o	f12f09b0460936c4
+2	302	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRCrypto.c.o	3b72baf2b9891f39
+189	302	0	CMakeFiles/core-lib.dir/src/main/jni/transition/PeerManager.c.o	913b20a7d74fb956
+106	329	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRWallet.c.o	e419d1e4b2c36f7
+3	356	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRPaymentProtocol.c.o	a76d5b8677669dbf
+85	478	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRPeer.c.o	2726f90a599c4c56
+231	504	0	CMakeFiles/core-lib.dir/src/main/jni/transition/wallet.c.o	ac1c21dde81dd9f7
+2	568	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRKey.c.o	9c87fb43e51f2d60
+95	618	0	CMakeFiles/core-lib.dir/src/main/jni/slicewallet-core/BRPeerManager.c.o	cf0c608bedf1e588
+618	649	0	../../../../build/intermediates/cmake/loafDebug/obj/x86_64/libcore-lib.so	17d4e46b8119fd9e
