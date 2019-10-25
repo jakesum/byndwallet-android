@@ -1,0 +1,161 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/markmccorkle/Repositories/android/slicewallet-android/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/markmccorkle/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"core-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "core-lib",
+			"buildCommand" : "/Users/markmccorkle/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a --target core-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRAddress.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRBase58.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRBIP32Sequence.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRBIP38Key.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRBIP39Mnemonic.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRBloomFilter.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRCrypto.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRKey.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRMerkleBlock.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRPaymentProtocol.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRPeer.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRPeerManager.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRSet.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRTransaction.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/slicewallet-core/BRWallet.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/transition/core.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/transition/JNIBase58.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/transition/JNIBIP32Sequence.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/transition/JNIKey.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/transition/PeerManager.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/slicewallet-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/src/main/jni/transition/wallet.c",
+					"workingDirectory" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/.cxx/cmake/loafDebug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/markmccorkle/Repositories/android/slicewallet-android/app/build/intermediates/cmake/loafDebug/obj/armeabi-v7a/libcore-lib.so",
+			"toolchain" : "7716891947188265164"
+		}
+	},
+	"toolchains" : 
+	{
+		"7716891947188265164" : 
+		{
+			"cCompilerExecutable" : "/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/markmccorkle/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
