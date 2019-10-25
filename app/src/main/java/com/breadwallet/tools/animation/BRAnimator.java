@@ -189,7 +189,7 @@ public class BRAnimator {
 
         // }
             AlertDialog.Builder builder1 = new AlertDialog.Builder(app);
-            builder1.setMessage("SliceWallet Support is currently not available. Please contact us at:\n support@slicewallet.org");
+            builder1.setMessage("SliceWallet Support is currently not available.");
             builder1.setCancelable(true);
             AlertDialog alert11 = builder1.create();
             alert11.show();

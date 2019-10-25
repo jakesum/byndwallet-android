@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -34,6 +35,7 @@ import com.breadwallet.tools.animation.SlideDetector;
 import com.platform.APIClient;
 import com.platform.HTTPServer;
 
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -117,13 +119,13 @@ public class FragmentMenu extends Fragment {
                 app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.fade_down);
             }
         }));
-//        itemList.add(new BRMenuItem(getString(R.string.MenuButton_support), R.drawable.ic_question_mark, new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (!BRAnimator.isClickAllowed()) return;
-//                BRAnimator.showSupportFragment(getActivity(), null);
-//            }
-//        }));
+        itemList.add(new BRMenuItem(getString(R.string.MenuButton_findanatm), R.drawable.ic_search_gray_24dp, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://coinatmradar.com/manufacturer/5/general-bytes-bitcoin-atm-producer/"));
+                startActivity(browserIntent);            }
+        }));
         itemList.add(new BRMenuItem(getString(R.string.MenuButton_settings), R.drawable.ic_settings, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
