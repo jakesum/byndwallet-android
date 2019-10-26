@@ -15,7 +15,7 @@ android {
         applicationId = 'com.slicewallet'
         minSdkVersion 23
         targetSdkVersion 28
-        versionCode 14
+        versionCode 15
         versionName "1.1.1"
         multiDexEnabled true
 
@@ -163,6 +163,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.7.0'
     implementation 'com.google.firebase:firebase-core:11.8.0'
     implementation 'com.google.firebase:firebase-crash:11.8.0'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
     implementation 'io.sigpipe:jbsdiff:1.0'
     implementation 'com.google.zxing:core:3.3.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
