@@ -1,17 +1,17 @@
-![ƀ](/images/icon.png) 
-# SliceWallet for Android
+![ƀ](https://github.com/beyondcoin-project/beyondcoin/blob/master/share/pixmaps/bitcoin256.png) 
+# BYND Wallet for Android
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
-(https://play.google.com/store/apps/details?id=com.slicewallet)
+(https://play.google.com/store/apps/details?id=com.byndwallet)
 
-### Sumcoin done right
+### Beyondcoin done right
 
 This is the Android port of the breadwallet iOS app, which can be found [here](https://github.com/breadwallet/breadwallet/).
 
-##### A completely standalone Sumcoin wallet:
+##### A completely standalone Beyondcoin wallet:
 
-Unlike many other Sumcoin wallets, Slicewallet is a real standalone Sumcoin
+Unlike many other Beyondcoin wallets, BYNDwallet is a real standalone Beyondcoin
 client. There is no server to get hacked or go down, so you can always access
 your money. Using
 [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients)
@@ -20,15 +20,15 @@ performance you need on a mobile device.
 
 ##### The next step in wallet security:
 
-Slicewallet is designed to protect you from malware, browser security holes,
-*even physical theft*. With AES hardware encryption, app sandboxing, and verified boot, SliceWallet represents a significant security advance over
+BYNDwallet is designed to protect you from malware, browser security holes,
+*even physical theft*. With AES hardware encryption, app sandboxing, and verified boot, BYND Wallet represents a significant security advance over
 web and desktop wallets.
 
 ##### Beautiful simplicity:
 
-Simplicity is slicewallet's core design principle. A simple backup phrase is
+Simplicity is byndwallet's core design principle. A simple backup phrase is
 all you need to restore your wallet on another device if yours is ever lost or
-broken.  Because slicewallet is  
+broken.  Because byndwallet is  
 [deterministic](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki),
 your balance and transaction history can be recovered from just your backup
 phrase.
@@ -48,7 +48,7 @@ phrase.
 3. Download NDK r15c from the [NDK Archives](https://developer.android.com/ndk/downloads/older_releases.html)
 4. Clone this repo & init submodules
 ```bash
-git clone https://github.com/CryptoCloudInc/slicewallet-android.git
+git clone https://github.com/jakesum/byndwallet-android.git
 git submodule init
 git submodule update
 ```

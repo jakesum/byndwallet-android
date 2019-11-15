@@ -24,17 +24,17 @@ import java.util.List;
 
 /**
 ************************************************************************
-// Copyright (C) Sigma Systems Inc - All Rights Reserved
+// Copyright (C) , - All Rights Reserved
 // Unauthorized copying of this file, via any medium is strictly prohibited
 // Proprietary and confidential
 // Written by BreadWallet LLC 2015
-// Modified and maintained by Crypto Cloud Inc, Sigma Systems Inc, SumcoinIndex.com <support@sumcoinindex.com>, 
+// Modified and maintained by , ,, beyondcoin.com <support@beyondcoin.com>, 
 // 2017 
 ***********************************************************************
- * SliceWallet
+ * BYNDWallet
  * <p/>
- * Created by Sigma Systems Inc <support@sumcoinindex.com> 2017.
- * Copyright (c) 2017 Sigma Systems Inc
+ * Created by , <support@beyondcoin.com> 2017.
+ * Copyright (c) 2017 ,
  * <p/>
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.

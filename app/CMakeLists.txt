@@ -27,39 +27,39 @@ add_library( # Specifies the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
-             src/main/jni/slicewallet-core/BRAddress.c
-             src/main/jni/slicewallet-core/BRAddress.h
-             src/main/jni/slicewallet-core/BRArray.h
-             src/main/jni/slicewallet-core/BRBase58.c
-             src/main/jni/slicewallet-core/BRBase58.h
-             src/main/jni/slicewallet-core/BRBIP32Sequence.c
-             src/main/jni/slicewallet-core/BRBIP32Sequence.h
-             src/main/jni/slicewallet-core/BRBIP38Key.c
-             src/main/jni/slicewallet-core/BRBIP38Key.h
-             src/main/jni/slicewallet-core/BRBIP39Mnemonic.c
-             src/main/jni/slicewallet-core/BRBIP39Mnemonic.h
-             src/main/jni/slicewallet-core/BRBIP39WordsEn.h
-             src/main/jni/slicewallet-core/BRBloomFilter.c
-             src/main/jni/slicewallet-core/BRBloomFilter.h
-             src/main/jni/slicewallet-core/BRCrypto.c
-             src/main/jni/slicewallet-core/BRCrypto.h
-             src/main/jni/slicewallet-core/BRInt.h
-             src/main/jni/slicewallet-core/BRKey.c
-             src/main/jni/slicewallet-core/BRKey.h
-             src/main/jni/slicewallet-core/BRMerkleBlock.c
-             src/main/jni/slicewallet-core/BRMerkleBlock.h
-             src/main/jni/slicewallet-core/BRPaymentProtocol.c
-             src/main/jni/slicewallet-core/BRPaymentProtocol.h
-             src/main/jni/slicewallet-core/BRPeer.c
-             src/main/jni/slicewallet-core/BRPeer.h
-             src/main/jni/slicewallet-core/BRPeerManager.c
-             src/main/jni/slicewallet-core/BRPeerManager.h
-             src/main/jni/slicewallet-core/BRSet.c
-             src/main/jni/slicewallet-core/BRSet.h
-             src/main/jni/slicewallet-core/BRTransaction.c
-             src/main/jni/slicewallet-core/BRTransaction.h
-             src/main/jni/slicewallet-core/BRWallet.c
-             src/main/jni/slicewallet-core/BRWallet.h
+             src/main/jni/byndwallet-core/BRAddress.c
+             src/main/jni/byndwallet-core/BRAddress.h
+             src/main/jni/byndwallet-core/BRArray.h
+             src/main/jni/byndwallet-core/BRBase58.c
+             src/main/jni/byndwallet-core/BRBase58.h
+             src/main/jni/byndwallet-core/BRBIP32Sequence.c
+             src/main/jni/byndwallet-core/BRBIP32Sequence.h
+             src/main/jni/byndwallet-core/BRBIP38Key.c
+             src/main/jni/byndwallet-core/BRBIP38Key.h
+             src/main/jni/byndwallet-core/BRBIP39Mnemonic.c
+             src/main/jni/byndwallet-core/BRBIP39Mnemonic.h
+             src/main/jni/byndwallet-core/BRBIP39WordsEn.h
+             src/main/jni/byndwallet-core/BRBloomFilter.c
+             src/main/jni/byndwallet-core/BRBloomFilter.h
+             src/main/jni/byndwallet-core/BRCrypto.c
+             src/main/jni/byndwallet-core/BRCrypto.h
+             src/main/jni/byndwallet-core/BRInt.h
+             src/main/jni/byndwallet-core/BRKey.c
+             src/main/jni/byndwallet-core/BRKey.h
+             src/main/jni/byndwallet-core/BRMerkleBlock.c
+             src/main/jni/byndwallet-core/BRMerkleBlock.h
+             src/main/jni/byndwallet-core/BRPaymentProtocol.c
+             src/main/jni/byndwallet-core/BRPaymentProtocol.h
+             src/main/jni/byndwallet-core/BRPeer.c
+             src/main/jni/byndwallet-core/BRPeer.h
+             src/main/jni/byndwallet-core/BRPeerManager.c
+             src/main/jni/byndwallet-core/BRPeerManager.h
+             src/main/jni/byndwallet-core/BRSet.c
+             src/main/jni/byndwallet-core/BRSet.h
+             src/main/jni/byndwallet-core/BRTransaction.c
+             src/main/jni/byndwallet-core/BRTransaction.h
+             src/main/jni/byndwallet-core/BRWallet.c
+             src/main/jni/byndwallet-core/BRWallet.h
 
              src/main/jni/transition/core.c
              src/main/jni/transition/core.h
@@ -75,7 +75,7 @@ add_library( # Specifies the name of the library.
              src/main/jni/transition/wallet.h)
 
 
-include_directories(src/main/jni/slicewallet-core/)
+include_directories(src/main/jni/byndwallet-core/)
 include_directories(src/main/secp/secp256k1/include/)
 include_directories(src/main/secp/secp256k1/src/)
 include_directories(src/main/secp/secp256k1/)

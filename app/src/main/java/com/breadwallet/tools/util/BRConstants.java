@@ -5,10 +5,10 @@ import java.util.concurrent.TimeUnit;
 import com.breadwallet.BuildConfig;
 
 /**
- * SliceWallet
+ * BYNDWallet
  * <p/>
- * Created by Sigma Systems Inc <support@slicewallet.org> 2018
- * Copyright (c) 2018 SliceWallet.org
+ * Created by , <support@slicewallet.org> 2018
+ * Copyright (c) 2018 BYNDWallet.org
  * <p/>
  *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -140,7 +140,7 @@ public class BRConstants {
     public static final String WEB_LINK = "https://slicewallet.org";
     public static final String TOS_LINK = "https://slicewallet.org/license/";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://sumexplorer.com/tx/" :"http://sumexplorer.com/tx/";
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.beyondcoin.io/tx/" :"http://explorer.beyondcoin.io/tx/";
 
     private BRConstants() {
     }

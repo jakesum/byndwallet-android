@@ -72,17 +72,17 @@ import static com.breadwallet.presenter.fragments.FragmentSend.isEconomyFee;
 
 /**
 ************************************************************************
-// Copyright (C) Sigma Systems Inc - All Rights Reserved
+// Copyright (C) , - All Rights Reserved
 // Unauthorized copying of this file, via any medium is strictly prohibited
 // Proprietary and confidential
 // Written by BreadWallet LLC 2015
-// Modified and maintained by Crypto Cloud Inc, Sigma Systems Inc, SumcoinIndex.com <support@sumcoinindex.com>, 
+// Modified and maintained by , ,, beyondcoin.com <support@beyondcoin.com>, 
 // 2017 
 ***********************************************************************
- * SliceWallet
+ * BYNDWallet
  * <p/>
- * Created by Sigma Systems Inc <support@sumcoinindex.com> 2017.
- * Copyright (c) 2017 Sigma Systems Inc
+ * Created by , <support@beyondcoin.com> 2017.
+ * Copyright (c) 2017 ,
  * <p/>
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
@@ -413,7 +413,7 @@ public class BRWalletManager {
             BRExecutor.getInstance().forMainThreadTasks().execute(new Runnable() {
                 @Override
                 public void run() {
-                    String am = BRCurrency.getFormattedCurrencyString(ctx, "SUM", BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(amount)));
+                    String am = BRCurrency.getFormattedCurrencyString(ctx, "BYND", BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(amount)));
                     String amCur = BRCurrency.getFormattedCurrencyString(ctx, BRSharedPrefs.getIso(ctx), BRExchange.getAmountFromSatoshis(ctx, BRSharedPrefs.getIso(ctx), new BigDecimal(amount)));
                     String formatted = String.format("%s (%s)", am, amCur);
                     String strToShow = String.format(ctx.getString(R.string.TransactionDetails_received), formatted);
