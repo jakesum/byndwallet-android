@@ -157,7 +157,7 @@ public class PaperKeyProveActivity extends BRActivity {
                             brDialogView.dismissWithAnimation();
                         }
                     }, null, null, 0);
-            BRReportsManager.reportBug(new IllegalArgumentException("Paper Key error, please contact support at contact@slicewallet.org"), false);
+            BRReportsManager.reportBug(new IllegalArgumentException("Paper Key error, please contact support at contact@byndwallet.org"), false);
         } else {
             randomWordsSetUp(wordArray);
 

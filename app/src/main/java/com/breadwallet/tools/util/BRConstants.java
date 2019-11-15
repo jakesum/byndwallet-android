@@ -7,7 +7,7 @@ import com.breadwallet.BuildConfig;
 /**
  * BYNDWallet
  * <p/>
- * Created by , <support@slicewallet.org> 2018
+ * Created by , <support@byndwallet.org> 2018
  * Copyright (c) 2018 BYNDWallet.org
  * <p/>
  *
@@ -63,7 +63,7 @@ public class BRConstants {
     public static final String FEE_KB_PREFS = "feeKb";
     public static final String ECONOMY_FEE_KB_PREFS = "EconomyFeeKb";
     public static final String LITTLE_CIRCLE = "\u2022";
-    public static String SUPPORT_EMAIL = "support@slicewallet.com";
+    public static String SUPPORT_EMAIL = "support@byndwallet.com";
 
     public static final int ONE_BITCOIN = 100000000;
     public static final int HUNDRED_BITS = 10000000;
@@ -135,10 +135,10 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
     public static final String loopBug = "android-loop-bug";
 
-    public static final String TWITTER_LINK = "https://twitter.com/slicewallet";
+    public static final String TWITTER_LINK = "https://twitter.com/byndwallet";
     public static final String REDDIT_LINK = "https://www.reddit.com/r/sumcoin";
-    public static final String WEB_LINK = "https://slicewallet.org";
-    public static final String TOS_LINK = "https://slicewallet.org/license/";
+    public static final String WEB_LINK = "https://byndwallet.org";
+    public static final String TOS_LINK = "https://byndwallet.org/license/";
 
     public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.beyondcoin.io/tx/" :"http://explorer.beyondcoin.io/tx/";
 

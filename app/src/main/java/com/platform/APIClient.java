@@ -99,7 +99,7 @@ public class APIClient {
     // convenience getter for the API endpoint
     public static String BASE_URL = PROTO + "://" + BreadApp.HOST;
     //feePerKb url
-    private static final String FEE_PER_KB_URL = "https://rates.slicewallet.org/api/fee_per_kb";
+    private static final String FEE_PER_KB_URL = "https://rates.byndwallet.org/api/fee_per_kb";
     //token
     private static final String TOKEN = "/token";
     //me

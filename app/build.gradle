@@ -54,7 +54,7 @@ android {
     flavorDimensions "mode"
     productFlavors {
         loaf {
-            applicationId "com.slicewallet"
+            applicationId "com.byndwallet"
             dimension "mode"
             resValue "string", "app_name", "BYNDWallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
@@ -71,7 +71,7 @@ android {
         }
 
         sliceTestnet {
-            applicationId "com.slicewallet.testnet"
+            applicationId "com.byndwallet.testnet"
             dimension "mode"
             resValue "string", "app_name", "BYNDWallet-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"

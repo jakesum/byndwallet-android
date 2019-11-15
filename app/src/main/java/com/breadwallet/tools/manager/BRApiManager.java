@@ -168,7 +168,7 @@ public class BRApiManager {
 
 
     public static JSONArray fetchRates(Activity activity) {
-        String jsonString = urlGET(activity, "https://rates.slicewallet.org/api/rates");
+        String jsonString = urlGET(activity, "https://rates.byndwallet.org/api/rates");
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
         try {
@@ -180,7 +180,7 @@ public class BRApiManager {
     }
 
     public static JSONArray backupFetchRates(Activity activity) {
-        String jsonString = urlGET(activity, "https://rates.slicewallet.org/api/rates");
+        String jsonString = urlGET(activity, "https://rates.byndwallet.org/api/rates");
 
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
@@ -194,7 +194,7 @@ public class BRApiManager {
     }
 
     public static void updateFeePerKb(Context app) {
-        String jsonString = urlGET(app, "https://rates.slicewallet.org/api/fee_per_kb");
+        String jsonString = urlGET(app, "https://rates.byndwallet.org/api/fee_per_kb");
         if (jsonString == null || jsonString.isEmpty()) {
             Log.e(TAG, "updateFeePerKb: failed to update fee, response string: " + jsonString);
             return;
